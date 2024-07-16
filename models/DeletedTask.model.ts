@@ -1,5 +1,5 @@
 import { Task } from "./Task.model";
 
-export type DeletedTask = {
+export type DeletedTask = Task & {
   projectId: string;
-} & Task;
+};
