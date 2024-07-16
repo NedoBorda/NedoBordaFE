@@ -9,10 +9,12 @@ export type Task = {
   updates: Update[],
   dueDate: number,
   creationDate: number,
-  additionalFields: TaskAdditionalField[]
+  status: TaskField,
+  priority: TaskField,
+  additionalFields: TaskField[]
 }
 
-type TaskAdditionalField = {
+type TaskField = {
   name: string,
   variant: {
     name: string,

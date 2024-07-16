@@ -10,10 +10,12 @@ export type Project = {
   members: User[];
   creationDate: number;
   deletedTask: DeletedTask[];
-  additionalFields: ProjectAdditionalField[],
+  status: ProjectField[],
+  priority : ProjectField[]
+  additionalFields: ProjectField[],
 };
 
-type ProjectAdditionalField = {
+type ProjectField = {
   name: string;
   variants: { name: string; color: string }[];
 };
