@@ -1,4 +1,4 @@
-import { Update } from "./Update.model";
+import { Comment } from "./Comment.model";
 import { User } from "./User.model";
 
 export type Task = {
@@ -6,7 +6,7 @@ export type Task = {
   title: string,
   creator: User,
   assignees: User[],
-  updates: Update[],
+  comments: Comment[],
   dueDate: number,
   creationDate: number,
   status: TaskField,

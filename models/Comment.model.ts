@@ -1,6 +1,6 @@
 import { User } from "./User.model";
 
-export type Update = {
+export type Comment = {
   id: string,
   text: string;
   creator: User,
