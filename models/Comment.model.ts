@@ -1,8 +1,8 @@
 import { User } from "./User.model";
 
 export type Comment = {
-  id: string,
+  id: string;
   text: string;
-  creator: User,
-  creationDate: number,
-}
+  creator: User;
+  creationDate: number;
+};
