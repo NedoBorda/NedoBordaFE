@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "nb",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -97,6 +97,7 @@
     }
   },
   "cli": {
-    "schematicCollections": ["@angular-eslint/schematics"]
+    "schematicCollections": ["@angular-eslint/schematics"],
+    "analytics": false
   }
 }
