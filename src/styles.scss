@@ -1,16 +1,19 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@use "@angular/material" as mat;
+@use '@angular/material' as mat;
+
 // Plus imports for other components in your app.
-@import "./variables.scss";
+@import './variables';
 
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
+
+/* stylelint-disable-next-line scss/at-mixin-argumentless-call-parentheses */
 @include mat.core();
 
 // Define the theme object.
-$NedoBordaFE-theme: mat.define-theme(
+$nedo-borda-fe-theme: mat.define-theme(
   (
     color: (
       theme-type: light,
@@ -27,22 +30,24 @@ $NedoBordaFE-theme: mat.define-theme(
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 :root {
-  @include mat.all-component-themes($NedoBordaFE-theme);
+  @include mat.all-component-themes($nedo-borda-fe-theme);
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
 // For more information: https://material.angular.io/guide/typography#using-typography-styles-in-your-application.
-// @include mat.typography-hierarchy($NedoBordaFE-theme);
+// @include mat.typography-hierarchy($nedo-borda-fe-theme);
 
 // Comment out the line below if you want to use the deprecated `color` inputs.
-// @include mat.color-variants-backwards-compatibility($NedoBordaFE-theme);
+// @include mat.color-variants-backwards-compatibility($nedo-borda-fe-theme);
+
 /* You can add global styles to this file, and also import other style files */
 
 html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
