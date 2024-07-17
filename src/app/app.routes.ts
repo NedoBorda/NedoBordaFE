@@ -28,7 +28,7 @@ export const routes: Routes = [
     ],
   },
   {
-    path: 'dashboard',
+    path: '/',
     loadComponent: () =>
       import('./pages/dashboard/dashboard.component').then(
         (m) => m.DashboardComponent
@@ -47,11 +47,6 @@ export const routes: Routes = [
       import('./pages/profile/profile.component').then(
         (m) => m.ProfileComponent
       ),
-  },
-  {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: 'about',
   },
   {
     path: '**',
