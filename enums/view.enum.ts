@@ -1,5 +1,5 @@
 export enum View {
   Table = "table",
   Kanban = "kanban",
-  Charts = "charts",
+  Statistics = "statistics",
 }

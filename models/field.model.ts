@@ -1,4 +1,4 @@
-import { Project } from "./Project.model";
+import { Project } from "./project.model";
 
 type FieldBase = {
   name: string;

@@ -1,14 +1,11 @@
-import { View } from "../enums/View.enum";
-import { DeletedProject } from "./DeletedProject.model";
+import { View } from "../enums/view.enum";
 
 export type User = {
   id: string;
   name: string;
   email: string;
-  password: string;
   creationDate: number;
-  notifications: Notification[];
-  deletedProjects: DeletedProject[];
+  deletedProjectsIds: string[];
   projectsSettings: UserProject[];
 };
 
