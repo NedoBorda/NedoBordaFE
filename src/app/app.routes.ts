@@ -33,15 +33,13 @@ export const routes: Routes = [
       import('./pages/dashboard/dashboard.component').then(
         (m) => m.DashboardComponent
       ),
-    children: [
-      {
-        path: 'projects',
-        loadComponent: () =>
-          import('./pages/dashboard/projects/projects.component').then(
-            (m) => m.ProjectsComponent
-          ),
-      },
-    ],
+  },
+  {
+    path: 'project',
+    loadComponent: () =>
+      import('./pages/project/project.component').then(
+        (m) => m.ProjectComponent
+      ),
   },
   {
     path: 'profile',

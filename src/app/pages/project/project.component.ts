@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'nb-projects',
   standalone: true,
   imports: [],
-  templateUrl: './projects.component.html',
-  styleUrl: './projects.component.scss'
+  templateUrl: './project.component.html',
+  styleUrl: './project.component.scss'
 })
-export class ProjectsComponent {
+export class ProjectComponent {
 
 }
