@@ -1,0 +1,52 @@
+:root {
+  --nb-color-text-primary: #323338;
+  --nb-color-text-secondary: #aeaeae; 
+  --nb-color-text-btn-1: #ffffff; 
+
+  --nb-color-accent-1: #eeb556; 
+  --nb-color-accent-2: #3b9eb4;
+
+  --nb-color-background: #ffffff; 
+  --nb-color-background-header: #e6eef1;
+
+  --nb-color-background-table-1: #fefbf6;
+  --nb-color-background-table-2: #fafafa;
+
+  --nb-color-background-kanban: #f9f9f9;
+
+  --nb-color-background-card: #fcfcfc;
+  --nb-color-background-card-accent: #ffe1e1;
+
+  --nb-color-dot-done: #f9aaec;
+  --nb-color-dot-todo: #adde8f;
+  --nb-color-dot-inprogress: #8cdaeb;
+  --nb-color-dot-blocked: #cc7676;
+  --nb-color-dot-1: #cacc64;
+  --nb-color-dot-2: #979a6b;
+  --nb-color-dot-3: #e5af5e;
+  --nb-color-dot-4: #876129;
+  --nb-color-dot-5: #badaec;
+  --nb-color-dot-6: #4c72bc;
+  --nb-color-dot-7: #9b7ed9;
+  --nb-color-dot-8: #9d3aff;
+  --nb-color-dot-9: #e2e2e2;
+  --nb-color-dot-10: #ecaeae;
+  --nb-color-dot-11: #fe4e6d;
+  --nb-color-dot-12: #731b5a;
+}
+
+body.dark {
+  --nb-color-text-primary: #ffffff;
+  --nb-color-text-btn-1: #323338;
+
+  --nb-color-accent-1: #3b9eb4;
+  --nb-color-accent-2: #eeb556;
+
+  --nb-color-background: #323338;
+  --nb-color-background-header: #4D4942;
+    
+  --nb-color-background-table-1: #3B3939;
+  --nb-color-background-table-2: #313237;
+  
+  --nb-color-background-kanban: #444449;
+}
